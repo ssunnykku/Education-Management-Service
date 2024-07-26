@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+#loading {
+  display: inline-block;
+  border: 3px solid rgba(199, 199, 199, 0.7);
+  border-radius: 50%;
+  border-top-color: #5C7CFA;
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
